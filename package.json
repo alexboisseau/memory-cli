@@ -1,0 +1,28 @@
+{
+  "name": "memory-cli",
+  "version": "1.0.0",
+  "description": "A CLI application for learning anything you want",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rm -rf dist/ && npx tsc",
+    "start": "npm run build && node dist/index.js",
+    "start:prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "memory-cli": "./dist/index.js"
+  }
+}

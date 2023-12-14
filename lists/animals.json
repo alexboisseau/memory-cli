@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How to say 'un chien' in English?",
+    "choices": [
+      { "value": "Dog", "isCorrect": true },
+      { "value": "Cat", "isCorrect": false },
+      { "value": "Horse", "isCorrect": false },
+      { "value": "Bird", "isCorrect": false }
+    ],
+    "response": "Dog"
+  },
+  {
+    "question": "How to say 'un chat' in English?",
+    "choices": [
+      { "value": "Dog", "isCorrect": false },
+      { "value": "Cat", "isCorrect": true },
+      { "value": "Horse", "isCorrect": false },
+      { "value": "Bird", "isCorrect": false }
+    ],
+    "response": "Cat"
+  },
+  {
+    "question": "How to say 'un cheval' in English?",
+    "choices": [
+      { "value": "Dog", "isCorrect": false },
+      { "value": "Cat", "isCorrect": false },
+      { "value": "Horse", "isCorrect": true },
+      { "value": "Bird", "isCorrect": false }
+    ],
+    "response": "Horse"
+  },
+  {
+    "question": "How to say 'un oiseau' in English?",
+    "choices": [
+      { "value": "Dog", "isCorrect": false },
+      { "value": "Cat", "isCorrect": false },
+      { "value": "Horse", "isCorrect": false },
+      { "value": "Bird", "isCorrect": true }
+    ],
+    "response": "Bird"
+  }
+]
